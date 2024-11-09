@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:"kongtext";
+    src: url("/assets/fonts/kongtext.ttf") format("truetype");
+  }
+
+body {
+  font-family: "kongtext";
+  background-image: url('/assets/images/tile2.jpg');
+  color: rgb(234, 234, 234);
+}
