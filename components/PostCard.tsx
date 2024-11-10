@@ -8,7 +8,7 @@ const PostCard = (props) => {
 
     return (
       <Link href={"/posts/" + props.id} style={{ textDecoration: 'none' }}>
-        <div className="nes-container is-rounded is-dark with-title w-full mb-5" style={{textAlign: "left"}} >
+        <div className="nes-container is-rounded is-dark with-title w-full mb-5" style={{textAlign: "left", marginBottom: "1em"}} >
           <p className="title">{props.title}</p>
           <p style={{whiteSpace: "pre-wrap"}}>{props.body}</p>
         </div>
